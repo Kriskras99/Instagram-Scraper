@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <title>Instagram-Scraper</title>
+    </head>
+    <body>
+        <div class=container>
+            <div class=row>
+                <h1>Instagram-Scraper</h1>
+            </div>
+            <div class=row>
+                <div class=col>
+                    <h2>Targeted accounts</h2>
+                    <ul id="user_list">
+                    </ul>
+                </div>
+                <div class=col>
+                    <h2>Most recent tagged images</h2>
+                    <div id="carouselExampleControls" class="carousel slide text-center" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                        <div class="carousel-inner" id="carousel_images">
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="false_positive()">False positive</button>
+                        <button type="submit" class="btn btn-primary" onclick="hide()">Done</button>
+                    </div>
+                <div class=col>
+                    <h2>Settings</h2>
+                    <h3>App</h3>
+                    <form>
+                        <label for="time_between_scans" class="form-label">Time between media scans</label>
+                        <div class="mb-3 input-group">
+                            <input type="number" class="form-control" id="time_between_scans">
+                            <span class="input-group-text" id="units1">minutes</span>
+                        </div>
+                        <label for="time_between_follower_checks" class="form-label">Time between follower updates</label>
+                        <div class="mb-3 input-group">
+                            <input type="number" class="form-control" id="time_between_follower_checks">
+                            <span class="input-group-text" id="units2">minutes</span>
+                        </div>
+                        <div class="mb-3">
+                        <label for="degrees_of_separation" class="form-label">Degrees of separation from target account</label>
+                        <input type="number" class="form-control" id="degrees_of_separation">
+                        </div>
+                    </form>
+                    <h3>Instagram</h3>
+                    <form>
+                        <div class="mb-3">
+                        <label for="username" class="form-label">Username of scan account</label>
+                        <input type="text" class="form-control" id="username">
+                        </div>
+                        <div class="mb-3">
+                        <label for="password" class="form-label">Password of scan account</label>
+                        <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="mb-3">
+                        <label for="totp" class="form-label">2FA secret</label>
+                        <input type="text" class="form-control" id="totp">
+                        </div>
+                    </form>
+                    <button type="submit" class="btn btn-primary" onclick="save_settings()">Save</button>
+                </div>
+            </div>
+        </div>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/socket.io.msgpack.min.js"></script>
+        <script src="/main.js"></script>
+    </body>
+</html> 

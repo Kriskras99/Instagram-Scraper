@@ -1,0 +1,8 @@
+instagrapi >= 1.16.11
+mintotp >= 0.3
+fcache >= 0.4.7
+flask >= 2.0.2
+flask-socketio >= 5.1.1
+easyocr >= 1.4.1
+simple-websocket >= 0.5.0
+apscheduler >= 3.8.1

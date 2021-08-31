@@ -1,0 +1,427 @@
+[
+	{
+		"excludeSearchTerms": [],
+		"language": "EN",
+		"name": "Illegaal feest",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "NL",
+		"name": "COVID Feest",
+		"searchTerms": [
+			{
+				"exclude": [],
+				"expression": {
+					"term": "projectx",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "project",
+								"type": "TermExpression"
+							},
+							{
+								"term": "x",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"term": "project-x",
+						"type": "TermExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "house",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "houseparty",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "techno",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "rave",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "underground",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "dance",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "hardstyle",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "dancefeest",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "techhouse",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "deephouse",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"term": "pop-up",
+						"type": "TermExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "pop",
+								"type": "TermExpression"
+							},
+							{
+								"term": "up",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "popup",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "feest",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "party",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "covidparty",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "covid19disco",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "covid19dance",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "lockdownparty",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "schuurfeest",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "bedrijfsborrel",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "vrijmibo",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "teamuitje",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "tuinfeest",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "feessie",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "bunker",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "corono",
+								"type": "TermExpression"
+							},
+							{
+								"term": "feest",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "coronafeest",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "coronaparty",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "corona",
+								"type": "TermExpression"
+							},
+							{
+								"term": "partij",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "corona",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "samen",
+								"type": "TermExpression"
+							},
+							{
+								"term": "met",
+								"type": "TermExpression"
+							},
+							{
+								"term": "corona",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "coronapartij",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "house",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "schijt",
+								"type": "TermExpression"
+							},
+							{
+								"term": "aan",
+								"type": "TermExpression"
+							},
+							{
+								"term": "corona",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			}
+		]
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "AR",
+		"name": "Illegaal feest",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "FR",
+		"name": "Illegaal feest",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "PT",
+		"name": "Illegaal feest",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "ES",
+		"name": "Illegaal feest",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "DE",
+		"name": "Illegaal feest",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "TR",
+		"name": "Illegaal feest",
+		"searchTerms": []
+	}
+]

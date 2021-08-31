@@ -1,0 +1,10 @@
+version: "2"
+services:
+  scraper:
+    build: .
+    volumes:
+      - ./config:/config
+      - ./data:/data
+    ports:
+      - 5000:5000
+    restart: "no"

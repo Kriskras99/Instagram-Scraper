@@ -1,0 +1,16 @@
+{
+    "app": {
+        "time_between_scans": 5,
+        "time_between_follower_checks": 60,
+        "degrees_of_separation": 1
+    },
+    "instagram": {
+        "username": "voorbeeld",
+        "password": "wachtwoord",
+        "totp": "M7CFNEDHJAMPJGVJC43UXFC6JN8GD2V7"
+    },
+    "users": {
+        "lokatie12": ["volger1", "volger2"],
+        "raveparty123": []
+    }
+}

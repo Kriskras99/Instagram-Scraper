@@ -1,0 +1,1334 @@
+[
+	{
+		"excludeSearchTerms": [],
+		"language": "EN",
+		"name": "illegal party ENG",
+		"searchTerms": [
+			{
+				"exclude": [
+					{
+						"not": {
+							"term": "movie",
+							"type": "TermExpression"
+						},
+						"type": "NotExpression"
+					},
+					{
+						"not": {
+							"term": "imdb",
+							"type": "TermExpression"
+						},
+						"type": "NotExpression"
+					},
+					{
+						"not": {
+							"term": "film",
+							"type": "TermExpression"
+						},
+						"type": "NotExpression"
+					}
+				],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "project",
+								"type": "TermExpression"
+							},
+							{
+								"term": "X",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "secret",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "secret",
+								"type": "TermExpression"
+							},
+							{
+								"term": "parties",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "free",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "illegal",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "illegal",
+								"type": "TermExpression"
+							},
+							{
+								"term": "parties",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "open",
+								"type": "TermExpression"
+							},
+							{
+								"term": "house",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "illegal",
+								"type": "TermExpression"
+							},
+							{
+								"term": "open",
+								"type": "TermExpression"
+							},
+							{
+								"term": "house",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "open",
+								"type": "TermExpression"
+							},
+							{
+								"term": "house",
+								"type": "TermExpression"
+							},
+							{
+								"term": "parties",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "illegal",
+								"type": "TermExpression"
+							},
+							{
+								"term": "open",
+								"type": "TermExpression"
+							},
+							{
+								"term": "house",
+								"type": "TermExpression"
+							},
+							{
+								"term": "parties",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"term": "houseparty",
+						"type": "TermExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"term": "houseparties",
+						"type": "TermExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "underage",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "underage",
+								"type": "TermExpression"
+							},
+							{
+								"term": "parties",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "house",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							},
+							{
+								"term": "out",
+								"type": "TermExpression"
+							},
+							{
+								"term": "of",
+								"type": "TermExpression"
+							},
+							{
+								"term": "control",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "illegal",
+								"type": "TermExpression"
+							},
+							{
+								"term": "rave",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "out-of-control",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "rave",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "teen",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "illegal",
+								"type": "TermExpression"
+							},
+							{
+								"term": "raves",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "rave",
+								"type": "TermExpression"
+							},
+							{
+								"term": "promoter",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "secret",
+								"type": "TermExpression"
+							},
+							{
+								"term": "warehouse",
+								"type": "TermExpression"
+							},
+							{
+								"term": "parties",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "secret",
+								"type": "TermExpression"
+							},
+							{
+								"term": "warehouse",
+								"type": "TermExpression"
+							},
+							{
+								"term": "party",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "rave",
+								"type": "TermExpression"
+							},
+							{
+								"term": "scene",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			}
+		]
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "NL",
+		"name": "Melding Illegaal feest",
+		"searchTerms": [
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "in",
+							"type": "TermExpression"
+						},
+						{
+							"term": "kelder",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "onder",
+							"type": "TermExpression"
+						},
+						{
+							"term": "viaduct",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "op",
+							"type": "TermExpression"
+						},
+						{
+							"term": "terrein",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "raveparty",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "rave",
+							"type": "TermExpression"
+						},
+						{
+							"term": "party",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "psy",
+							"type": "TermExpression"
+						},
+						{
+							"term": "trance",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "psy",
+							"type": "TermExpression"
+						},
+						{
+							"term": "trance",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "goa",
+							"type": "TermExpression"
+						},
+						{
+							"term": "party",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "goaparty",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "goabase",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "goabace",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "goa",
+							"type": "TermExpression"
+						},
+						{
+							"term": "bace",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "030303",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "feest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "goa",
+							"type": "TermExpression"
+						},
+						{
+							"term": "feest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "goa",
+							"type": "TermExpression"
+						},
+						{
+							"term": "feestje",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "feesten",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "goa",
+							"type": "TermExpression"
+						},
+						{
+							"term": "trance",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "goatrance",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "rave",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "house",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "dance",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "goa",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "psy",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "techno",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "projectx",
+					"type": "TermExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "dansfeest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "drugsfeest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "project",
+								"type": "TermExpression"
+							},
+							{
+								"term": "x",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "psytrance",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "psytrance",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"literal": {
+						"and": [
+							{
+								"term": "dr",
+								"type": "TermExpression"
+							},
+							{
+								"term": "feelgood",
+								"type": "TermExpression"
+							}
+						],
+						"type": "AndExpression"
+					},
+					"type": "LiteralExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "danceparty",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "danceparty",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "hiphop",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "hiphop",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "hiphopfeest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "hiphopfeest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "house",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "housparty",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "houseparty",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "techno",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "technofeest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "technofeest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "party",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "party",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegaal",
+							"type": "TermExpression"
+						},
+						{
+							"term": "techhousfeest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "illegale",
+							"type": "TermExpression"
+						},
+						{
+							"term": "techhousefeest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "feest",
+							"type": "TermExpression"
+						},
+						{
+							"term": "onder",
+							"type": "TermExpression"
+						},
+						{
+							"term": "brug",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"and": [
+						{
+							"term": "tunnel",
+							"type": "TermExpression"
+						},
+						{
+							"term": "feest",
+							"type": "TermExpression"
+						}
+					],
+					"type": "AndExpression"
+				}
+			},
+			{
+				"exclude": [],
+				"expression": {
+					"term": "underground",
+					"type": "TermExpression"
+				}
+			}
+		]
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "AR",
+		"name": "illegaal feest ",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "FR",
+		"name": "illegaal feest ",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "PT",
+		"name": "illegaal feest ",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "ES",
+		"name": "illegaal feest ",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "DE",
+		"name": "illegal party ENG",
+		"searchTerms": []
+	},
+	{
+		"excludeSearchTerms": [],
+		"language": "TR",
+		"name": "illegal party ENG",
+		"searchTerms": []
+	}
+]
